@@ -1,3 +1,5 @@
+# Java Maven CircleCi config file.
+
 version: 2
 jobs:
   build:
