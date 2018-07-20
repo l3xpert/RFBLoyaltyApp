@@ -224,6 +224,7 @@ task wrapper(type: Wrapper) {
 task stage(dependsOn: 'bootJar')
 
 node {
+    version = '8.10.0'
     download = true
 }
 
